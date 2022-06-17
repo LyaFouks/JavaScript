@@ -1,17 +1,20 @@
-var x = 5;
-x += 7;
-x -= 2;
-x *= 5;
-x /= 10;
+var userName = "Ivan";
+var userAge = 21;
+var isMarried = true;
 
-x += 1;
-x++;
-x--;
+if (userAge >= 20) {
+	console.log(userName + " is adult.");
+} else if (userAge < 10) {
+	console.log(userName + " is a child.");
+} else {
+	console.log(userName + " is a teenager.");
+} 
 
-++x;
 
-var y = 10;
+if(isMarried) {
+	console.log(userName + " is married.");
+} else {
+	console.log(userName + " maybe will married soon:)")
+}
 
-x = ++y;
-x = y++;
-console.log(x, y);
+console.log("Something");
