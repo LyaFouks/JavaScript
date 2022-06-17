@@ -1,13 +1,11 @@
-/* ////////////////////////////////////////////////////////////////////////////
-* Name of user, dsqsssssssqsnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
-* adsfdsnqyvqdywvfhqwvbfhqw
-* bdashdbajsdnasd
-* dausbnjkadmgfoasignksa
-*/
-var firstName = "Vasya";
-/*console.log(firstName);
-
-alert(firstName)*/
-
-firstName = prompt("What is your name?");
-console.log(firstName);
+var x = null;
+var y = undefined;
+var isXMore = x <= y;
+var isXMore = x == y;
+var isXMore = x === y;
+var isXMore = x !== y;
+var isXMore = x == y;
+console.log(false == 0);
+console.log(true == 1);
+console.log(null == undefined);
+console.log(NaN == NaN);
