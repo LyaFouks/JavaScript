@@ -1,8 +1,17 @@
-var x = 2 + 10 / 2;
-console.log(x);
-var y = 10 -x > 10;
-console.log(y);
-console.log(u, t);
-var u, t;
-u = t = 2 + 8 - 3 * 2;
-console.log(u, t);
+var x = 5;
+x += 7;
+x -= 2;
+x *= 5;
+x /= 10;
+
+x += 1;
+x++;
+x--;
+
+++x;
+
+var y = 10;
+
+x = ++y;
+x = y++;
+console.log(x, y);
