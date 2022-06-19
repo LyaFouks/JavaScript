@@ -1,16 +1,15 @@
-var section = "html5";
+var x = 1;
 
-switch(section) {
-	case "html" :
-	case "html5" :
-	console.log("Вы изучаете раздел 'HTML'");
-	break;
-	case "css" :
-	console.log("Вы изучаете раздел 'CSS'");
-	break;
-	case "javascript" :
-	console.log("Вы изучаете раздел 'JavaScript'");
-	break;
-	default :
-	console.log("Вы изучаете какой-то раздел");
+while(x <= 10) {
+	console.log(x);
+	x++;
+}
+console.log("Loop has finished.")
+
+var helloString = "Hello JavaScript.";
+var count = 0;
+
+while (count < helloString.length) {
+	console.log(helloString[count]);
+	count++;
 }
