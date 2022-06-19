@@ -1,20 +1,16 @@
-var userName = "Ivan";
-var userAge = 21;
-var isMarried = true;
-
-if (userAge >= 20) {
-	console.log(userName + " is adult.");
-} else if (userAge < 10) {
-	console.log(userName + " is a child.");
-} else {
-	console.log(userName + " is a teenager.");
-} 
+var userName = "Jana";
+var userWeight = 91;
 
 
-if(isMarried) {
-	console.log(userName + " is married.");
-} else {
-	console.log(userName + " maybe will married soon:)")
-}
+// if(userWeight > 90) {
+// 	console.log(userName + " has redundant weight.");
+// }
+// else {
+// 	console.log(userName + " has normal weight.");
+// }
 
-console.log("Something");
+var weightDescription
+
+weightDescription = userWeight > 90 ? " redundant" : " normal";
+
+userWeight > 90 ? console.log(userName + " has" + weightDescription + "weight.") : console.log(userName + " has" + weightDescription + "weight.");

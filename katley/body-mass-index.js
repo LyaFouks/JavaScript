@@ -28,7 +28,7 @@ else if(userAge >= 18 && userAge <= 25 && bodyIndex > 30 && bodyIndex <= 35) {
 else if(userAge >= 18 && userAge <= 25 && bodyIndex > 35 && bodyIndex <= 40) {
 	alert('У вас ожирение 3й степени.');
 } 
-else if(userAge >= 18 && userAge <= 25 && bodyIndex > 40) {
+else if(userAge >= 18 && userAge <= 25 && bodyIndex >= 40) {
 	alert('У вас ожирение 4й степени');
 } 
 else if(userAge >= 25.9 && userAge <= 46 && bodyIndex <= 18) {
@@ -52,7 +52,7 @@ else if(userAge >= 25.9 && userAge <= 46 && bodyIndex > 31 && bodyIndex <= 36) {
 else if(userAge >= 25.9 && userAge <= 46 && bodyIndex > 36 && bodyIndex <= 41) {
 	alert('У вас ожирение 3й степени.');
 } 
-else if(userAge >= 25.9 && userAge <= 46 && bodyIndex > 41) {
+else if(userAge >= 25.9 && userAge <= 46 && bodyIndex >= 41) {
 	alert('У вас ожирение 4й степени');
 }
 else {
