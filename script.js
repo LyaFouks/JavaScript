@@ -1,41 +1,47 @@
-// var carToyota = ["Camry", 2010, "sedan", "black", true];
-// console.log(carToyota[2]);
-
-
-var carToyota = {
-	model: "Camry",
-	year: 2010,
-	carBody: "sedan",
-	color: "black",
-	hasAirbag: true
-
+var colors = ["red", "orange", "blue"];
+var personJack = {
+	firstName: "Jack",
+	lastName: "Brown",
+	age: 23,
+	isMarried: true,
+	pets: ["cat", "dog", "snake"]
 }
 
-var x = "hasAirbag";
-console.log(carToyota[x]);
-console.log(carToyota["hasAirbag"]);
-console.log(carToyota.color);
+var numbers = [[1, 2, 3], [4, 5, 6], [7, 8, 9, 10]];
+console.log(numbers[1][2]);
 
-carToyota.color = "red";
-console.log(carToyota.color);
-console.log(carToyota);
-carToyota.year += 2
-console.log(carToyota);
+console.log(personJack.pets[1]);
 
-var carMazda = {};
-var carOpel = new Object();
-carOpel.year = 2015;
-carOpel.model = "CX231" ;
-carOpel.carBody = "sedan";
-carOpel.color = "blue";
-carOpel.hasAirbag = true;
-carOpel.doorNumber = 3;
-console.log(carOpel);
-	
-carMazda.year = 2018;
-carMazda.model = "CX7" ;
-carMazda.carBody = "crossover";
-carMazda.color = "blue";
-carMazda.hasAirbag = false;
-carMazda.doorNumber = 4;
-console.log(carMazda);
+var sellers = [
+	{
+		firstName: "Peter",
+		lastName: "Goodman",
+		regDate: "09.08.2019",
+		hasDiscount: true,
+		age: 63,
+		cars: [{
+			carProducer: "fiat",
+			carModel: "punto"
+		}, 
+		{
+			carProducer: "mercedes",
+			carModel: "vito"
+		}, 
+		{
+			carProducer: "opel",
+			carModel: "vectra"
+		}]
+	},
+	{
+		firstName: "John",
+		lastName: "Jason",
+		regDate: "10.03.2015",
+		hasDiscount: false,
+		age: 32,
+		cars: ["mazda", "mercedes", "toyota"]
+	}
+
+
+]
+
+console.log(sellers[0].cars[1].carModel);
