@@ -1,56 +1,41 @@
-// push/pop
-// unshift/shift
-// indexOf
-// slice
+// var carToyota = ["Camry", 2010, "sedan", "black", true];
+// console.log(carToyota[2]);
 
 
+var carToyota = {
+	model: "Camry",
+	year: 2010,
+	carBody: "sedan",
+	color: "black",
+	hasAirbag: true
 
+}
 
-var names = ['John', 'Jane','Jack', 'Jim'];
-console.log(names);
-// names[4] = 'Jeen';
-// names.push('Jeen');
-// names.push('Jeen');
+var x = "hasAirbag";
+console.log(carToyota[x]);
+console.log(carToyota["hasAirbag"]);
+console.log(carToyota.color);
 
-console.log(names);
-var x = names.push('Jeen');
-x = names.push('Ivan');
-console.log(names);
-console.log(x);
+carToyota.color = "red";
+console.log(carToyota.color);
+console.log(carToyota);
+carToyota.year += 2
+console.log(carToyota);
 
-var y = names.pop();
-console.log(names);
-console.log(y);
-
-names.unshift('Irene');
-console.log(names);
-console.log(x);
-
-y = names.shift();
-console.log(names);
-console.log(y);
-
-names.push('John');
-names.push('Jack');
-console.log(names);
-
-
-
-
-var z = names.indexOf('Jack');
-console.log(z);
-
-var toyota = ["Camry", 2010, "sedan", "black", true];
-var isSedan = toyota.indexOf("sedan") === -1 ?
-console.log("Type is not sedan") : 
-console.log("Type is sedan");
-
-
-
-
-var cars = ["Honda", "KIA", "Peugeot", "Mercedes", "Opel", "Toyota"];
-var germanCars = cars.slice(3, 5);
-console.log(germanCars);
-console.log(cars);
-
-
+var carMazda = {};
+var carOpel = new Object();
+carOpel.year = 2015;
+carOpel.model = "CX231" ;
+carOpel.carBody = "sedan";
+carOpel.color = "blue";
+carOpel.hasAirbag = true;
+carOpel.doorNumber = 3;
+console.log(carOpel);
+	
+carMazda.year = 2018;
+carMazda.model = "CX7" ;
+carMazda.carBody = "crossover";
+carMazda.color = "blue";
+carMazda.hasAirbag = false;
+carMazda.doorNumber = 4;
+console.log(carMazda);
