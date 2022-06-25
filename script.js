@@ -1,30 +1,32 @@
-// function animalVoice(animal, animalName) {
-// 	switch(animal) {
-// 		case "dog" :
-// 		return animalName + " barks.";
-// 		case "cat" :
-// 			return animalName + " meows.";
-// 		case "pig" :
-// 			return animalName + " grunts.";
-// 		default:
-// 			return animalName + " makes some sounds.";
-// 	}
-// }
+var color1 = "red";
+var color2 = "orange";
+var color3 = "yellow";
+var color4 = "green";
+var color5 = "blue";
+var color6 = "indigo";
+var color7 = "violet";
 
-// console.log(animalVoice("tiger", "Richard"));
+var rainbowColors = ["red", "orange", "yellow", "green", "blue",
+ 						"indigo", "violet"];
+
+console.log("The sky is " + rainbowColors[4]);
+
+rainbowColors[0] = "orange";
+console.log(rainbowColors);
+
+rainbowColors[8] = "red";
+console.log(rainbowColors);
+
+rainbowColors[rainbowColors.leght] = "dark blue";
+console.log(rainbowColors);
 
 
-var animalVoice = function(animal, animalName) {
-	switch(animal) {
-		case "dog" :
-		return animalName + " barks.";
-		case "cat" :
-			return animalName + " meows.";
-		case "pig" :
-			return animalName + " grunts.";
-		default:
-			return animalName + " makes some sounds.";
-	}
-}
+var emptyArray = [];
+var emptyArrayNew = new Array();
 
-console.log(animalVoice("cat", "Richard"));
+var numbers = [1, 3, 5, 242, 521];
+console.log(numbers);
+
+var anyItems = [1, "some text", null];
+
+
