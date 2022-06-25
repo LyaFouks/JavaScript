@@ -1,32 +1,56 @@
-var color1 = "red";
-var color2 = "orange";
-var color3 = "yellow";
-var color4 = "green";
-var color5 = "blue";
-var color6 = "indigo";
-var color7 = "violet";
-
-var rainbowColors = ["red", "orange", "yellow", "green", "blue",
- 						"indigo", "violet"];
-
-console.log("The sky is " + rainbowColors[4]);
-
-rainbowColors[0] = "orange";
-console.log(rainbowColors);
-
-rainbowColors[8] = "red";
-console.log(rainbowColors);
-
-rainbowColors[rainbowColors.leght] = "dark blue";
-console.log(rainbowColors);
+// push/pop
+// unshift/shift
+// indexOf
+// slice
 
 
-var emptyArray = [];
-var emptyArrayNew = new Array();
 
-var numbers = [1, 3, 5, 242, 521];
-console.log(numbers);
 
-var anyItems = [1, "some text", null];
+var names = ['John', 'Jane','Jack', 'Jim'];
+console.log(names);
+// names[4] = 'Jeen';
+// names.push('Jeen');
+// names.push('Jeen');
+
+console.log(names);
+var x = names.push('Jeen');
+x = names.push('Ivan');
+console.log(names);
+console.log(x);
+
+var y = names.pop();
+console.log(names);
+console.log(y);
+
+names.unshift('Irene');
+console.log(names);
+console.log(x);
+
+y = names.shift();
+console.log(names);
+console.log(y);
+
+names.push('John');
+names.push('Jack');
+console.log(names);
+
+
+
+
+var z = names.indexOf('Jack');
+console.log(z);
+
+var toyota = ["Camry", 2010, "sedan", "black", true];
+var isSedan = toyota.indexOf("sedan") === -1 ?
+console.log("Type is not sedan") : 
+console.log("Type is sedan");
+
+
+
+
+var cars = ["Honda", "KIA", "Peugeot", "Mercedes", "Opel", "Toyota"];
+var germanCars = cars.slice(3, 5);
+console.log(germanCars);
+console.log(cars);
 
 
