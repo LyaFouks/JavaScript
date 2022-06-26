@@ -1,11 +1,4 @@
-var ul = document.getElementsByTagName("ul");
-console.log(ul[0].innerHTML);
-console.log(ul[0].textContent);
-
-var li = document.getElementsByTagName("li");
-console.log(li[0].innerHTML);
-li[0].innerHTML = "The <strong>html</strong> elements as objects";
-console.log(li[0].innerHTML);
-console.log(li[0].textContent);
-li[0].textContent = "The <strong>html</strong> elements as objects";
-console.log(li[0].innerHTML);
+var li3 = document.getElementById("rum");
+li3.classList.add("stylish");
+li3.classList.remove("stylish");
+li3.classList.toggle("stylish");
